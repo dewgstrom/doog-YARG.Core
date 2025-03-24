@@ -109,6 +109,15 @@ namespace YARG.Core.Game
                 Rotation    = 17.09f,
                 FadeLength  = 1.5f,
                 CurveFactor = 0f,
+            },
+            new CameraPreset("Dora", true)
+            {
+                FieldOfView = 60f,
+                PositionY   = 3f, // Not used by iso camera
+                PositionZ   = 4.75f,
+                Rotation    = 70f,
+                FadeLength  = 1f,
+                CurveFactor = 0f,
             }
         };
     }
